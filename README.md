@@ -2,6 +2,10 @@
 
 The original JavaFX Valentine app, recovered from the Windows installation's `Project_Test.jar`. This repository includes the decompiled source and all eight files from the JAR's `resources` directory.
 
+## Download
+
+Download [TennaAsking-Java-Windows-x64.zip](https://github.com/Ralvi07/TennaAsking-Java/releases/latest/download/TennaAsking-Java-Windows-x64.zip) and extract the entire ZIP. Open the extracted folder and run `TennaAsking-Java.exe`. The folder includes the Java and JavaFX runtime.
+
 ## Build and run on Windows
 
 Install JDK 21 and unpack the JavaFX 21 SDK for Windows. In PowerShell, set the path to the SDK's `lib` directory, then run these commands from this repository.
