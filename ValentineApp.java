@@ -1,3 +1,4 @@
+// Builds the JavaFX proposal screens and coordinates button behavior, animation, and media playback.
 /*
  * Decompiled with CFR 0.152.
  *
@@ -50,6 +51,7 @@ extends Application {
     Scene scene;
     Stage stage = new Stage();
 
+    // Build the initial JavaFX scene and attach the interaction handlers.
     public void start(Stage stage) {
         Image gif = new Image(((Object)((Object)this)).getClass().getResource("/resources/dr_tenna.gif").toExternalForm());
         this.background = new ImageView(gif);
@@ -97,6 +99,7 @@ extends Application {
         this.stage.show();
     }
 
+    // Switch the scene to Tenna's sad reaction.
     public void setSadTenna() {
         Image gif = new Image(((Object)((Object)this)).getClass().getResource("/resources/tennacrazy.gif").toExternalForm());
         this.background = new ImageView(gif);
@@ -138,6 +141,7 @@ extends Application {
         this.stage.setScene(this.scene);
     }
 
+    // Switch the scene to Tenna's happy reaction.
     public void setHappyTenna() {
         Image gif = new Image(((Object)((Object)this)).getClass().getResource("/resources/tennahappy.gif").toExternalForm());
         this.background = new ImageView(gif);
